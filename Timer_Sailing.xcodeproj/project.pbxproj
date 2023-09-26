@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD1C9E292AC33F9300505064 /* Timer_Sailing Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DD1C9E282AC33F9300505064 /* Timer_Sailing Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DD1C9E2E2AC33F9300505064 /* Timer_SailingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C9E2D2AC33F9300505064 /* Timer_SailingApp.swift */; };
+		DD1C9E302AC33F9300505064 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C9E2F2AC33F9300505064 /* ContentView.swift */; };
+		DD1C9E322AC33F9400505064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1C9E312AC33F9400505064 /* Assets.xcassets */; };
+		DD1C9E352AC33F9400505064 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1C9E342AC33F9400505064 /* Preview Assets.xcassets */; };
+		DD1C9E3F2AC33F9500505064 /* Timer_Sailing_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C9E3E2AC33F9500505064 /* Timer_Sailing_Watch_AppTests.swift */; };
+		DD1C9E492AC33F9500505064 /* Timer_Sailing_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C9E482AC33F9500505064 /* Timer_Sailing_Watch_AppUITests.swift */; };
+		DD1C9E4B2AC33F9500505064 /* Timer_Sailing_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C9E4A2AC33F9500505064 /* Timer_Sailing_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD1C9E2A2AC33F9300505064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD1C9E1C2AC33F9300505064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD1C9E272AC33F9300505064;
+			remoteInfo = "Timer_Sailing Watch App";
+		};
+		DD1C9E3B2AC33F9500505064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD1C9E1C2AC33F9300505064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD1C9E272AC33F9300505064;
+			remoteInfo = "Timer_Sailing Watch App";
+		};
+		DD1C9E452AC33F9500505064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD1C9E1C2AC33F9300505064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD1C9E272AC33F9300505064;
+			remoteInfo = "Timer_Sailing Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DD1C9E512AC33F9500505064 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DD1C9E292AC33F9300505064 /* Timer_Sailing Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DD1C9E222AC33F9300505064 /* Timer_Sailing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer_Sailing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD1C9E282AC33F9300505064 /* Timer_Sailing Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timer_Sailing Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD1C9E2D2AC33F9300505064 /* Timer_SailingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer_SailingApp.swift; sourceTree = "<group>"; };
+		DD1C9E2F2AC33F9300505064 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD1C9E312AC33F9400505064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD1C9E342AC33F9400505064 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD1C9E3A2AC33F9500505064 /* Timer_Sailing Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Timer_Sailing Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD1C9E3E2AC33F9500505064 /* Timer_Sailing_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer_Sailing_Watch_AppTests.swift; sourceTree = "<group>"; };
+		DD1C9E442AC33F9500505064 /* Timer_Sailing Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Timer_Sailing Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD1C9E482AC33F9500505064 /* Timer_Sailing_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer_Sailing_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		DD1C9E4A2AC33F9500505064 /* Timer_Sailing_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer_Sailing_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD1C9E252AC33F9300505064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1C9E372AC33F9500505064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1C9E412AC33F9500505064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD1C9E1B2AC33F9300505064 = {
+			isa = PBXGroup;
+			children = (
+				DD1C9E2C2AC33F9300505064 /* Timer_Sailing Watch App */,
+				DD1C9E3D2AC33F9500505064 /* Timer_Sailing Watch AppTests */,
+				DD1C9E472AC33F9500505064 /* Timer_Sailing Watch AppUITests */,
+				DD1C9E232AC33F9300505064 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD1C9E232AC33F9300505064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD1C9E222AC33F9300505064 /* Timer_Sailing.app */,
+				DD1C9E282AC33F9300505064 /* Timer_Sailing Watch App.app */,
+				DD1C9E3A2AC33F9500505064 /* Timer_Sailing Watch AppTests.xctest */,
+				DD1C9E442AC33F9500505064 /* Timer_Sailing Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD1C9E2C2AC33F9300505064 /* Timer_Sailing Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				DD1C9E2D2AC33F9300505064 /* Timer_SailingApp.swift */,
+				DD1C9E2F2AC33F9300505064 /* ContentView.swift */,
+				DD1C9E312AC33F9400505064 /* Assets.xcassets */,
+				DD1C9E332AC33F9400505064 /* Preview Content */,
+			);
+			path = "Timer_Sailing Watch App";
+			sourceTree = "<group>";
+		};
+		DD1C9E332AC33F9400505064 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD1C9E342AC33F9400505064 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD1C9E3D2AC33F9500505064 /* Timer_Sailing Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD1C9E3E2AC33F9500505064 /* Timer_Sailing_Watch_AppTests.swift */,
+			);
+			path = "Timer_Sailing Watch AppTests";
+			sourceTree = "<group>";
+		};
+		DD1C9E472AC33F9500505064 /* Timer_Sailing Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD1C9E482AC33F9500505064 /* Timer_Sailing_Watch_AppUITests.swift */,
+				DD1C9E4A2AC33F9500505064 /* Timer_Sailing_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Timer_Sailing Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD1C9E212AC33F9300505064 /* Timer_Sailing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD1C9E522AC33F9500505064 /* Build configuration list for PBXNativeTarget "Timer_Sailing" */;
+			buildPhases = (
+				DD1C9E202AC33F9300505064 /* Resources */,
+				DD1C9E512AC33F9500505064 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD1C9E2B2AC33F9300505064 /* PBXTargetDependency */,
+			);
+			name = Timer_Sailing;
+			productName = Timer_Sailing;
+			productReference = DD1C9E222AC33F9300505064 /* Timer_Sailing.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		DD1C9E272AC33F9300505064 /* Timer_Sailing Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD1C9E4E2AC33F9500505064 /* Build configuration list for PBXNativeTarget "Timer_Sailing Watch App" */;
+			buildPhases = (
+				DD1C9E242AC33F9300505064 /* Sources */,
+				DD1C9E252AC33F9300505064 /* Frameworks */,
+				DD1C9E262AC33F9300505064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Timer_Sailing Watch App";
+			productName = "Timer_Sailing Watch App";
+			productReference = DD1C9E282AC33F9300505064 /* Timer_Sailing Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD1C9E392AC33F9500505064 /* Timer_Sailing Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD1C9E552AC33F9500505064 /* Build configuration list for PBXNativeTarget "Timer_Sailing Watch AppTests" */;
+			buildPhases = (
+				DD1C9E362AC33F9500505064 /* Sources */,
+				DD1C9E372AC33F9500505064 /* Frameworks */,
+				DD1C9E382AC33F9500505064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD1C9E3C2AC33F9500505064 /* PBXTargetDependency */,
+			);
+			name = "Timer_Sailing Watch AppTests";
+			productName = "Timer_Sailing Watch AppTests";
+			productReference = DD1C9E3A2AC33F9500505064 /* Timer_Sailing Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD1C9E432AC33F9500505064 /* Timer_Sailing Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD1C9E582AC33F9500505064 /* Build configuration list for PBXNativeTarget "Timer_Sailing Watch AppUITests" */;
+			buildPhases = (
+				DD1C9E402AC33F9500505064 /* Sources */,
+				DD1C9E412AC33F9500505064 /* Frameworks */,
+				DD1C9E422AC33F9500505064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD1C9E462AC33F9500505064 /* PBXTargetDependency */,
+			);
+			name = "Timer_Sailing Watch AppUITests";
+			productName = "Timer_Sailing Watch AppUITests";
+			productReference = DD1C9E442AC33F9500505064 /* Timer_Sailing Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD1C9E1C2AC33F9300505064 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DD1C9E212AC33F9300505064 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					DD1C9E272AC33F9300505064 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					DD1C9E392AC33F9500505064 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = DD1C9E272AC33F9300505064;
+					};
+					DD1C9E432AC33F9500505064 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = DD1C9E272AC33F9300505064;
+					};
+				};
+			};
+			buildConfigurationList = DD1C9E1F2AC33F9300505064 /* Build configuration list for PBXProject "Timer_Sailing" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD1C9E1B2AC33F9300505064;
+			productRefGroup = DD1C9E232AC33F9300505064 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD1C9E212AC33F9300505064 /* Timer_Sailing */,
+				DD1C9E272AC33F9300505064 /* Timer_Sailing Watch App */,
+				DD1C9E392AC33F9500505064 /* Timer_Sailing Watch AppTests */,
+				DD1C9E432AC33F9500505064 /* Timer_Sailing Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD1C9E202AC33F9300505064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1C9E262AC33F9300505064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1C9E352AC33F9400505064 /* Preview Assets.xcassets in Resources */,
+				DD1C9E322AC33F9400505064 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1C9E382AC33F9500505064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1C9E422AC33F9500505064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD1C9E242AC33F9300505064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1C9E302AC33F9300505064 /* ContentView.swift in Sources */,
+				DD1C9E2E2AC33F9300505064 /* Timer_SailingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1C9E362AC33F9500505064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1C9E3F2AC33F9500505064 /* Timer_Sailing_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD1C9E402AC33F9500505064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1C9E4B2AC33F9500505064 /* Timer_Sailing_Watch_AppUITestsLaunchTests.swift in Sources */,
+				DD1C9E492AC33F9500505064 /* Timer_Sailing_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD1C9E2B2AC33F9300505064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD1C9E272AC33F9300505064 /* Timer_Sailing Watch App */;
+			targetProxy = DD1C9E2A2AC33F9300505064 /* PBXContainerItemProxy */;
+		};
+		DD1C9E3C2AC33F9500505064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD1C9E272AC33F9300505064 /* Timer_Sailing Watch App */;
+			targetProxy = DD1C9E3B2AC33F9500505064 /* PBXContainerItemProxy */;
+		};
+		DD1C9E462AC33F9500505064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD1C9E272AC33F9300505064 /* Timer_Sailing Watch App */;
+			targetProxy = DD1C9E452AC33F9500505064 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD1C9E4C2AC33F9500505064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD1C9E4D2AC33F9500505064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DD1C9E4F2AC33F9500505064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Timer_Sailing Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 32TJJD64VG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Timer_Sailing;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LP.Timer-Sailing.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		DD1C9E502AC33F9500505064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Timer_Sailing Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 32TJJD64VG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Timer_Sailing;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LP.Timer-Sailing.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		DD1C9E532AC33F9500505064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32TJJD64VG;
+				INFOPLIST_KEY_CFBundleDisplayName = Timer_Sailing;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LP.Timer-Sailing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DD1C9E542AC33F9500505064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32TJJD64VG;
+				INFOPLIST_KEY_CFBundleDisplayName = Timer_Sailing;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LP.Timer-Sailing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD1C9E562AC33F9500505064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32TJJD64VG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LP.Timer-Sailing-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timer_Sailing Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Timer_Sailing Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		DD1C9E572AC33F9500505064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32TJJD64VG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LP.Timer-Sailing-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timer_Sailing Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Timer_Sailing Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		DD1C9E592AC33F9500505064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32TJJD64VG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LP.Timer-Sailing-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Timer_Sailing Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		DD1C9E5A2AC33F9500505064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 32TJJD64VG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LP.Timer-Sailing-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Timer_Sailing Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD1C9E1F2AC33F9300505064 /* Build configuration list for PBXProject "Timer_Sailing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1C9E4C2AC33F9500505064 /* Debug */,
+				DD1C9E4D2AC33F9500505064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD1C9E4E2AC33F9500505064 /* Build configuration list for PBXNativeTarget "Timer_Sailing Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1C9E4F2AC33F9500505064 /* Debug */,
+				DD1C9E502AC33F9500505064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD1C9E522AC33F9500505064 /* Build configuration list for PBXNativeTarget "Timer_Sailing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1C9E532AC33F9500505064 /* Debug */,
+				DD1C9E542AC33F9500505064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD1C9E552AC33F9500505064 /* Build configuration list for PBXNativeTarget "Timer_Sailing Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1C9E562AC33F9500505064 /* Debug */,
+				DD1C9E572AC33F9500505064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD1C9E582AC33F9500505064 /* Build configuration list for PBXNativeTarget "Timer_Sailing Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1C9E592AC33F9500505064 /* Debug */,
+				DD1C9E5A2AC33F9500505064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD1C9E1C2AC33F9300505064 /* Project object */;
+}
